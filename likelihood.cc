@@ -94,7 +94,8 @@ mu1 = 0.1;
    fout1 <<  mu1 << " " << itog2 << std::endl;
    fout2 << mu1 << " " << itog4 << std::endl;
    itog5 = (-2) * log (itog3/itog6); 
-   std::cout << itog5 <<std::endl;    
+   double itog9 = itog5;
+   //std::cout << itog5 <<std::endl;    
    fout3 << mu1 << " " << itog5 << std::endl;
    
    lambda = itog6/itog;
@@ -111,5 +112,5 @@ mu1 = 0.1;
  //std::cout << lambdalog <<std::endl; 
  //std::cout << " uncertainty on the sample mean =    " << 1.65365/sqrt(234) << std::endl;
  //std::cout << itog3 << std::endl;
- std::cout << itog5 <<std::endl;    
+ std::cout << itog9 <<std::endl;    
 }
