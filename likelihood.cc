@@ -108,8 +108,8 @@ mu1 = 0.1;
    itog6=1;
    mu1=mu1+0.1;
   } 
- std::cout << lambdalog <<std::endl; 
+ //std::cout << lambdalog <<std::endl; 
  //std::cout << " uncertainty on the sample mean =    " << 1.65365/sqrt(234) << std::endl;
  //std::cout << itog3 << std::endl;
- 
+ std::cout << itog5 <<std::endl;    
 }
