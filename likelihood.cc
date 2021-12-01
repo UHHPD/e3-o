@@ -74,7 +74,7 @@ std::ofstream fout3( "abs.txt" );  // aufgabe d
    
       //std::cout << k << "   mu  = "<< mu << << itog << std::endl;
  }
-std::cout << itog3 << std::endl;
+//std::cout << itog3 << std::endl;
 mu1 = 0.1;   
   while (mu1 < 6) { 
     for(unsigned int k = 0 ; k < (daten.size()-1) ; ++k) { 
@@ -83,7 +83,7 @@ mu1 = 0.1;
    
       //std::cout << k << "   mu  = "<< mu << << itog << std::endl;
     }
-   std::cout << mu1 << "    " << itog << std::endl;
+   //std::cout << mu1 << "    " << itog << std::endl;
    fout <<  mu1 << " " << itog << std::endl;
    itog1 = log (itog); 
    itog2 = -2*itog1;
@@ -93,7 +93,8 @@ mu1 = 0.1;
    itog4 = itog2 - (-2*(log (itog3)));
    fout1 <<  mu1 << " " << itog2 << std::endl;
    fout2 << mu1 << " " << itog4 << std::endl;
-   itog5 = (-2) * log (itog/itog3); 
+   itog5 = (-2) * log (itog3/itog); 
+   std::cout << itog5 <<std::endl;    
    fout3 << mu1 << " " << itog5 << std::endl;
    
    lambda = itog6/itog;
