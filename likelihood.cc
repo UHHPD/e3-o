@@ -93,7 +93,7 @@ mu1 = 0.1;
    itog4 = itog2 - (-2*(log (itog3)));
    fout1 <<  mu1 << " " << itog2 << std::endl;
    fout2 << mu1 << " " << itog4 << std::endl;
-   itog5 = (-2) * log (itog/itog3); 
+   itog5 = (-2) * log (itog3/itog); 
    std::cout << itog5 <<std::endl;    
    fout3 << mu1 << " " << itog5 << std::endl;
    
