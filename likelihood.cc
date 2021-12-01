@@ -96,9 +96,10 @@ mu1 = 0.1;
    
    lambda = itog6/itog;
    lambdalog= (-2)* log(lambda);
+   std::cout << lamdalog <<std::endl; 
    zet = (lambdalog - ndof)/sqrt(ndof);
    //std::cout << mu1 << "    " << itog6 << "  " << itog << "  " << lambdalog << "  " << zet <<std::endl;
-   std::cout << mu1 << "  " << zet <<std::endl;
+   //std::cout << mu1 << "  " << zet <<std::endl;
    itog = 1;
    itog5=1;
    itog6=1;
