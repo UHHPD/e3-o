@@ -52,6 +52,7 @@ itog3=1;
 double itog4;
 double itog5;
 double itog6;
+double itog9;
 double lambda;
 double lambdalog;
 double zet;
@@ -94,7 +95,7 @@ mu1 = 0.1;
    fout1 <<  mu1 << " " << itog2 << std::endl;
    fout2 << mu1 << " " << itog4 << std::endl;
    itog5 = (-2) * log (itog3/itog6); 
-   double itog9 = itog5;
+   itog9 = itog5;
    //std::cout << itog5 <<std::endl;    
    fout3 << mu1 << " " << itog5 << std::endl;
    
