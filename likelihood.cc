@@ -69,10 +69,12 @@ std::ofstream fout3( "abs.txt" );  // aufgabe d
   }
  for(unsigned int k = 0 ; k < (daten.size()-1) ; ++k) { 
       itog3 = itog3 * prob (daten, 3.11538, k);   //likelihoodfunc
+     
 
    
       //std::cout << k << "   mu  = "<< mu << << itog << std::endl;
  }
+std::cout << itog3 << std::endl;
 mu1 = 0.1;   
   while (mu1 < 6) { 
     for(unsigned int k = 0 ; k < (daten.size()-1) ; ++k) { 
